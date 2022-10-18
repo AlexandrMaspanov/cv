@@ -4,7 +4,12 @@
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: rgb(48, 63, 94);
 }
 
@@ -25,17 +30,8 @@ h3 {
 }
 
 .header {
-    position: relative;
-    padding: 40px 0;
+    padding: 20px 0;
     background-color: rgb(148, 163, 194);
-}
-
-.nav {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
 }
 
 .nav ul {
@@ -74,7 +70,7 @@ h3 {
 }
 
 .section-profile {
-    height: 180px;
+    min-height: 180px;
     padding: 10px 20px;
     border-bottom: 10px solid rgb(148, 163, 194);
 }
@@ -94,7 +90,7 @@ h3 {
 .section {
     display: inline-block;
     width: 40%;
-    height: 200px;
+    min-height: 200px;
     vertical-align: top;
     margin: 5px 10px;
     border-bottom: 2px solid rgb(148, 163, 194);
